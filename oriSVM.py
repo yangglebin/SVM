@@ -1,7 +1,7 @@
 #! /opt/local/bin/python2.7
 # -"- encoding: utf-8 -"-
 
-# package, module
+# ------ package, module --------
 # import matplotlib
 # matplotlib.use('GTK')
 import numpy as np
@@ -11,6 +11,7 @@ import cvxopt.solvers
 # import matplotlib as mpl
 # mpl.use('PDF')
 import matplotlib.pyplot as plt
+# ---- package, module END -----
 
 
 # function 関数
@@ -156,5 +157,3 @@ if __name__ == "__main__":
     a = QPwrapper(Kt, N, t)
     # プロット
     ploting(a, t, X, K, N, kerntype)
-
-
